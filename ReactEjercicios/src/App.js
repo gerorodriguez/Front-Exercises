@@ -1,4 +1,5 @@
 import "./App.css";
+import AttendeeForm from "./components/attendee/AttendeeForm";
 import Logins from "./components/logx/Logins";
 
 
@@ -48,6 +49,7 @@ const App = () => {
       <SendingForm />
       <Logins /> */}
       <Logins />
+      <AttendeeForm />
     </div>
   );
 };
