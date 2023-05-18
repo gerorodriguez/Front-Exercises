@@ -1,7 +1,7 @@
 import "./App.css";
 import AttendeeForm from "./components/attendee/AttendeeForm";
+import ParentCounter from "./components/counter/ParentCounter";
 import Logins from "./components/logx/Logins";
-
 
 const App = () => {
   // const netIncomes = [{brand: 'McDonalds', income: 1291283}, {brand: 'Burger King',
@@ -9,7 +9,7 @@ const App = () => {
   // const persons = [{ name: 'Juan', age: 26 },{ name: 'Gabriel', age: 27 }, { name:
   //   'Valentina', age: 22 }, { name: 'Paula', age: 25 }, { name: 'Andrés', age: 20 } ];
   const products = ["table", "couch", "chair1", "chair2"];
-  const names = ['Parker','Simmons','Lewis','Poe'];
+  const names = ["Parker", "Simmons", "Lewis", "Poe"];
   const books = [
     {
       title: "100 años de soledad",
@@ -50,6 +50,7 @@ const App = () => {
       <Logins /> */}
       <Logins />
       <AttendeeForm />
+      <ParentCounter />
     </div>
   );
 };
